@@ -1,0 +1,7 @@
+.header-div {
+  float: left;
+  width: 20%;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}

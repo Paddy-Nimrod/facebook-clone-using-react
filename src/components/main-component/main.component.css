@@ -1,0 +1,104 @@
+.main-content {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 28vw auto 28vw;
+  background-color: rgb(41, 41, 41);
+}
+
+.left-column {
+  background-color: rgb(27, 27, 27);
+  padding: 1.5rem 5px 0px 15px;
+  color: white;
+  height: 100vh;
+}
+.center-column {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding-top: 1.5rem;
+}
+.status-bar {
+  margin: 0px 5px;
+  height: 14rem;
+  display: flex;
+}
+.status-card {
+  height: 85%;
+  width: 18%;
+  margin: auto;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+.status-card:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+  perspective: 100px;
+  cursor: pointer;
+}
+.mid-search-bar {
+  background-color: rgb(39, 39, 39);
+  height: 9rem;
+  width: 98%;
+  margin: 1rem auto;
+  border-radius: 0.7rem;
+}
+.mid-room-bar {
+  background-color: rgb(39, 39, 39);
+  width: 98%;
+  height: 5rem;
+  margin: 1rem auto;
+  border-radius: 0.7rem;
+}
+.side-row {
+  width: 100%;
+  height: 2.5rem;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin: auto;
+}
+.right-column {
+  background-color: rgb(27, 27, 27);
+  padding: 1.5rem 5px 0px 25px;
+  color: white;
+  border-right: 1px solid black;
+  height: 100vh;
+}
+.story-card {
+  background-color: rgb(39, 39, 39);
+  height: 40rem;
+  width: 96%;
+  margin: 1rem auto;
+  padding: 10px;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+.story-card-img-container {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.profile-name-icon {
+  width: 45%;
+  height: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  color: rgb(201, 201, 201);
+  justify-content: space-around;
+}
+.p-class {
+  font-size: 14px;
+}
+.profile-name-icon p {
+  font-size: 10px;
+  padding-left: 2px;
+}
+.story-card-img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.post-description {
+  padding: 1rem;
+  width: 80%;
+  margin-left: 3px;
+}
